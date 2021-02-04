@@ -1,53 +1,79 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "9x",
-      "bottom": "12x",
-      "left": "8x",
-      "right": "8x"
+  "command": "answer_to_user",
+  "pronounceText": "Если планируете забрать справку лично, выберите удобный адрес из списка.\nЧтобы получить справку по почте, укажи'те Ваш домашний адрес.\n\n",
+  "items": [
+    {
+      "bubble": {
+        "text": "Если планируете забрать справку __лично__, выберите удобный адрес из __списка__.\nЧтобы получить справку по почте, укажите Ваш домашний адрес.\n\n",
+        "markdown": true
+      }
     },
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Выберите адрес из списка",
-          "typeface": "headline3",
-          "text_color": "brand"
-        },
+    {
+      "card": {
+        "type": "list_card",
         "paddings": {
-          "bottom": "2x"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "top": "6x",
-          "bottom": "6x"
+          "top": "9x",
+          "bottom": "12x",
+          "left": "8x",
+          "right": "8x"
         },
-        "divider": {
-          "style": "default",
-          "size": "d2"
-        },
-        "actions": [
+        "cells": [
           {
-            "type": "text",
-            "text": ""
-          }
-        ],
-        "left": {
-          "type": "simple_left_view",
-          "texts": {
-            "title": {
-              "text": "Привет, сейчас будет \nновая строка \n\n двойная. А теперь для айфонов \\n новая строка \\n \\n дважды новая строка",
-              "typeface": "footnote2",
-              "text_color": "default",
-              "max_lines": 0
+            "type": "text_cell_view",
+            "content": {
+              "text": "Выберите адрес из списка",
+              "typeface": "headline3",
+              "text_color": "brand"
+            },
+            "paddings": {
+              "bottom": "2x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d2"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Привет, сейчас будет \nновая строка \n\n двойная. А теперь ещё ры: \r привет\r\nпока \n\rкак дела. А теперь для айфонов \\n новая строка \\n \\n дважды новая строка!!! А теперь ещё ры: \\n привет \\r\\n пока \\n\\r как дела.",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
             }
           }
+        ]
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Завершить",
+        "action": {
+          "type": "text",
+          "text": "Завершить"
         }
       }
     ]
-  }
+  },
+  "intent": "SAP_SF_Intgr_Document_182n_request",
+  "projectName": "Тестовый навык в каталоге",
+  "auto_listening": true,
+  "finished": false
 }
-
