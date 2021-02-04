@@ -1,0 +1,108 @@
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "9x",
+      "bottom": "12x",
+      "left": "8x",
+      "right": "8x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Выберите адрес из списка",
+          "typeface": "headline3",
+          "text_color": "brand"
+        },
+        "paddings": {
+          "bottom": "2x"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d2"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Москва г., проезд. 2-ой Южнопортовой, д. 12А, корп. 1, , комната 13.2.15, Максимова О.В. (Подписант: Максимова О. В., Эксперт)"
+          }
+        ],
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Москва г., проезд. 2-ой Южнопортовой, д. 12А, корп. 1, , комната 13.2.15, Максимова О.В. (Подписант: Максимова О. В., Эксперт)",
+              "typeface": "footnote2",
+              "text_color": "default",
+              "max_lines": 0
+            }
+          }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d2"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , комната 13.2.15, Горбунова Н.А. (Подписант: Горбунова Н. А., Эксперт)"
+          }
+        ],
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , комната 13.2.15, Горбунова Н.А. (Подписант: Горбунова Н. А., Эксперт)",
+              "typeface": "footnote2",
+              "text_color": "default",
+              "max_lines": 0
+            }
+          }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d2"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , каб. 13.02.15 (Подписант: Медведева О. И., Аналитик)"
+          }
+        ],
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , каб. 13.02.15 (Подписант: Медведева О. И., Аналитик)",
+              "typeface": "footnote2",
+              "text_color": "default",
+              "max_lines": 0
+            }
+          }
+        }
+      }
+    ]
+  }
+}
