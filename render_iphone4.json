@@ -2,34 +2,32 @@
   "type": "list_card",
   "cells": [
     {
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "title": {
-          "text": "Банкоматы",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x"
-          }
-        }
+      "type": "text_cell_view",
+      "content": {
+        "text": "Пожалуйста, проверьте, верно ли я всё записал?",
+        "typeface": "headline3",
+        "text_color": "default"
       },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "6x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Вы хотите заказать одну справку 2-НДФЛ за 2020 год.\n\nМесто получения лично: улица Колотушкина 1.",
+        "typeface": "footnote1",
+        "text_color": "default"
       },
-      "actions": [
-        {
-          "type": "text",
-          "text": "12312"
-        }
-      ]
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "6x"
+      }
     },
     {
       "type": "button_cell_view",
@@ -59,7 +57,7 @@
         "text": "Не согласен",
         "typeface": "button1",
         "style": "default",
-        "type": "reject",
+        "type": "accept",
         "actions": [
           {
             "type": "text",

@@ -1,49 +1,61 @@
 {
   "type": "list_card",
   "paddings": {
+    "left": "9x",
     "top": "9x",
-    "bottom": "12x",
-    "left": "8x",
-    "right": "8x"
+    "right": "9x",
+    "bottom": "9x"
   },
   "cells": [
     {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Выберите адрес из списка",
-        "typeface": "headline3",
-        "text_color": "brand"
-      },
-      "paddings": {
-        "bottom": "2x"
-      }
-    },
-    {
       "type": "left_right_cell_view",
-      "paddings": {
-        "top": "6x",
-        "bottom": "6x"
-      },
-      "divider": {
-        "style": "default",
-        "size": "d2"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": ""
-        }
-      ],
       "left": {
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Привет,сейчас будет \nновая строка \n\nдвойная. А теперь ещё ры: \rпривет \rпока \nкак дела. \n* один \n* два",
-            "typeface": "footnote2",
+            "text": "Согласие на обработку персональных данных",
+            "typeface": "headline3",
             "text_color": "default",
             "max_lines": 0
+          },
+          "subtitle": {
+            "text": "Я соглашаюсь с условиями и подписываю Согласие на обработку персональных данных",
+            "typeface": "footnote1",
+            "text_color": "brand",
+            "max_lines": 0,
+            "margins": {
+              "top": "5x"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sber.ru/salute/salute_consent_app.pdf"
+              }
+            ]
           }
         }
+      }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Согласен",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Согласен"
+          }
+        ],
+        "margins": {
+          "top": "4x",
+          "bottom": "4x"
+        }
+      },
+      "paddings": {
+        "top": "9x"
       }
     }
   ]
