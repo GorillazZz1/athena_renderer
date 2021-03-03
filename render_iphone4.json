@@ -1,21 +1,12 @@
 {
   "type": "list_card",
-  "paddings": {
-    "top": "9x",
-    "bottom": "12x",
-    "left": "8x",
-    "right": "8x"
-  },
   "cells": [
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Выберите адрес из списка",
+        "text": "Пожалуйста, проверьте, верно ли я всё записал?",
         "typeface": "headline3",
         "text_color": "brand"
-      },
-      "paddings": {
-        "bottom": "2x"
       }
     },
     {
@@ -31,7 +22,7 @@
       "actions": [
         {
           "type": "text",
-          "text": ""
+          "text": "send nudes"
         }
       ],
       "left": {
@@ -39,6 +30,17 @@
         "texts": {
           "title": {
             "text": "12312321123",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 0
+          }
+        }
+      },
+      "right": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "assas",
             "typeface": "body1",
             "text_color": "default",
             "max_lines": 0
