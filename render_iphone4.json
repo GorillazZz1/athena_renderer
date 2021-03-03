@@ -52,6 +52,28 @@
       "paddings": {
         "top": "9x"
       }
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Не согласен",
+        "typeface": "button1",
+        "style": "default",
+        "type": "reject",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Не согласен"
+          }
+        ],
+        "margins": {
+          "top": "4x",
+          "bottom": "4x"
+        }
+      },
+      "paddings": {
+        "top": "9x"
+      }
     }
   ]
 }
