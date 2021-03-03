@@ -12,7 +12,7 @@
       "content": {
         "text": "Пожалуйста, проверьте, верно ли я всё записал?",
         "typeface": "headline3",
-        "text_color": "default",
+        "text_color": "brand",
         "max_lines": 0
       },
       "paddings": {
@@ -116,7 +116,7 @@
         "left": "2x"
       },
       "vertical_gravity": "center"
-    }
+    }   
     },
     {
       "type": "left_right_cell_view",

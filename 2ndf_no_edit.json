@@ -12,7 +12,7 @@
       "content": {
         "text": "Пожалуйста, проверьте, верно ли я всё записал?",
         "typeface": "headline3",
-        "text_color": "default",
+        "text_color": "brand",
         "max_lines": 0
       },
       "paddings": {
@@ -28,7 +28,7 @@
         "left": "2x",
         "top": "2x",
         "right": "2x",
-        "bottom": "4x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -40,27 +40,15 @@
             "max_lines": 0
           }
         }
-      },
-      "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "изменить",
-            "typeface": "underline",
-            "text_color": "brand"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "center"
-        }
+      }
     },
     {
       "type": "left_right_cell_view",
       "paddings": {
         "left": "2x",
-        "top": "2x",
+        "top": "1x",
         "right": "2x",
-        "bottom": "2x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -72,27 +60,15 @@
             "max_lines": 0
           }
         }
-      },
-      "right": {
-      "type": "detail_right_view",
-      "detail": {
-        "text": "изменить",
-        "typeface": "underline",
-        "text_color": "brand"
-      },
-      "margins": {
-        "left": "2x"
-      },
-      "vertical_gravity": "center"
-    }
+      }
     },
     {
       "type": "left_right_cell_view",
       "paddings": {
         "left": "2x",
-        "top": "2x",
+        "top": "1x",
         "right": "2x",
-        "bottom": "2x"
+        "bottom": "1x"
       },
       "left": {
         "type": "simple_left_view",
@@ -104,19 +80,7 @@
             "max_lines": 0
           }
         }
-      },
-      "right": {
-      "type": "detail_right_view",
-      "detail": {
-        "text": "изменить",
-        "typeface": "underline",
-        "text_color": "brand"
-      },
-      "margins": {
-        "left": "2x"
-      },
-      "vertical_gravity": "center"
-    }
+      }
     },
     {
       "type": "left_right_cell_view",
@@ -128,7 +92,7 @@
       },
       "divider": {
         "style": "default",
-        "size": "d5"
+        "size": "d1"
       },
       "left": {
         "type": "simple_left_view",
