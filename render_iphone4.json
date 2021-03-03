@@ -2,50 +2,55 @@
   "type": "list_card",
   "cells": [
     {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Пожалуйста, проверьте, верно ли я всё записал?",
-        "typeface": "headline3",
-        "text_color": "brand"
-      }
-    },
-    {
       "type": "left_right_cell_view",
-      "paddings": {
-        "top": "6x",
-        "bottom": "6x"
-      },
-      "divider": {
-        "style": "default",
-        "size": "d2"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "send nudes"
-        }
-      ],
       "left": {
         "type": "simple_left_view",
-        "texts": {
-          "title": {
-            "text": "12312321123",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0
+        "title": {
+          "text": "Банкоматы",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
           }
         }
       },
       "right": {
-        "type": "simple_left_view",
-        "texts": {
-          "title": {
-            "text": "assas",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0
-          }
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
         }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "12312"
+        }
+      ]
+    },
+    {
+      "type": "button_cell_view",
+      "content": {
+        "text": "Согласен",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Согласен"
+          }
+        ],
+        "margins": {
+          "top": "4x",
+          "bottom": "4x"
+        }
+      },
+      "paddings": {
+        "top": "9x"
       }
     }
   ]
