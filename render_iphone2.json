@@ -12,7 +12,23 @@
       "content": {
         "text": "Пожалуйста, проверьте, верно ли я всё записал?",
         "typeface": "headline3",
-        "text_color": "default"
+        "text_color": "default",
+        "max_lines": 0
+      },
+      "paddings": {
+        "left": "8x",
+        "top": "6x",
+        "right": "8x",
+        "bottom": "6x"
+      }
+    },
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Вы хотите заказать одну справку 2-НДФЛ за 2020 год. Место получения лично: улица Колотушкина 1.",
+        "typeface": "body1",
+        "text_color": "default",
+        "max_lines": 0
       },
       "paddings": {
         "left": "8x",
@@ -49,7 +65,7 @@
         "text": "Не согласен",
         "typeface": "button1",
         "style": "default",
-        "type": "accept",
+        "type": "reject",
         "actions": [
           {
             "type": "text",
