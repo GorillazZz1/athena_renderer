@@ -1,10 +1,10 @@
 {
   "type": "list_card",
   "paddings": {
-    "left": "9x",
-    "top": "9x",
-    "right": "9x",
-    "bottom": "9x"
+    "left": "8x",
+    "top": "8x",
+    "right": "8x",
+    "bottom": "8x"
   },
   "cells": [
     {
@@ -23,10 +23,18 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Заказать справку 2-НДФЛ за 2021 год",
+            "text": "Заказать справку 2-НДФЛ",
             "typeface": "body1",
             "text_color": "default",
             "max_lines": 0
+          },
+          "subtitle": {
+            "text": "за 2021 год",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -38,7 +46,13 @@
           "text_color": "brand"
         },
         "vertical_gravity": "center"
-      }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить период"
+        }
+      ]
     },
     {
       "type": "left_right_cell_view",
@@ -56,10 +70,18 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Количество: 5 штук",
+            "text": "Количество",
             "typeface": "body1",
             "text_color": "default",
             "max_lines": 0
+          },
+          "subtitle": {
+            "text": "5 штук",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -71,7 +93,13 @@
           "text_color": "brand"
         },
         "vertical_gravity": "center"
-      }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить количество"
+        }
+      ]
     },
     {
       "type": "left_right_cell_view",
@@ -85,10 +113,19 @@
         "type": "simple_left_view",
         "texts": {
           "title": {
-            "text": "Место получения: Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , каб. 13.02.15 (Подписант: Медведева О. И., Аналитик)",
+            "text": "Место получения",
             "typeface": "body1",
             "text_color": "default",
             "max_lines": 0
+          },
+          "subtitle": {
+            "text": "Москва г., проезд. Южнопортовый 2-й, д. 12А, корп. 1, , каб. 13.02.15 (Подписант: Медведева О. И., Аналитик)",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -100,7 +137,13 @@
           "text_color": "brand"
         },
         "vertical_gravity": "center"
-      }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Изменить адрес"
+        }
+      ]
     },
     {
       "type": "button_cell_view",
